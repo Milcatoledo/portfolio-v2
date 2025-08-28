@@ -1,17 +1,15 @@
 import { Navbar } from '../components/navbar.jsx'
-
-function Projects() {
+function Contact() {
     const navLinks = [
         { name: "Home", path: "/" },
-        { name: "Contact", path: "/contact" }
+        { name: "Projects", path: "/projects" }
     ];
-
     return (
         <div>
             <Navbar links={navLinks} />
-            <h1>Projects Page</h1>
+            <h1>Contact Page</h1>
         </div>
     )
 }
 
-export default Projects
+export default Contact

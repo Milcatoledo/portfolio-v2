@@ -3,14 +3,18 @@ import { SkillsSection } from '../components/skillsSection.jsx'
 import { Navbar } from '../components/navbar.jsx'
 
 
-function App() {
+function Home() {
+    const navLinks = [
+        { name: "Projects", path: "/projects" },
+        { name: "Contact", path: "/contact" }
+    ];
     return (
         <div className='skills-container'>
-            <Navbar optionOne="Projects" optionTwo="Contact" />
+            <Navbar links={navLinks} />
             <h1>My skills</h1>
             <SkillsSection />
         </div>
     )
 }
 
-export default App
+export default Home
