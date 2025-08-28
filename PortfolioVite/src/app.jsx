@@ -1,14 +1,14 @@
-import './index.css'
-import { SkillsSection } from './components/skillsSection.jsx'
-import { Navbar } from './components/navbar.jsx'
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/home.jsx"
+import Projects from "./pages/projects.jsx"
+
 
 function App() {
     return (
-        <div className='skills-container'>
-            <Navbar optionOne="projects" optionTwo="contact" />
-            <h1>My skills</h1>
-            <SkillsSection />
-        </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />        
+        </Routes>
     )
 }
 

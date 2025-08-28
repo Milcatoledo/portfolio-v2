@@ -7,8 +7,8 @@ export const Navbar = ({optionOne, optionTwo }) => {
                     <a href="/"> Toledo's Portfolio </a>
                 </div>
                 <div className="navbar-links">
-                    <a href={"/" + optionOne}> {optionOne} </a>
-                    <a href={"/" + optionTwo}> {optionTwo} </a>
+                    <a> {optionOne} </a>
+                    <a> {optionTwo} </a>
                 </div>
             </nav>
         </header>

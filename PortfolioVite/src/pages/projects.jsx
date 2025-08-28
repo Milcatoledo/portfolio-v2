@@ -1,11 +1,11 @@
 import { Navbar } from '../components/navbar.jsx'
-
-export const Projects = () => {
+function Projects() {
     return (
-        <div className='projects-container'>
-            <Navbar optionOne="projects" optionTwo="contact" />
-            <h1>My Projects</h1>
-            {/* Tu contenido de proyectos aquí */}
+        <div>
+            <Navbar optionOne="Home" optionTwo="Contact" />
+            <h1>Projects Page</h1>
         </div>
     )
 }
+
+export default Projects
