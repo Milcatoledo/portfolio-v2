@@ -12,7 +12,8 @@ export function Skills({ skillName, skillImage, skillImageAlt, skillIcons = [], 
                         {skillIcons.map((icon, index) => (
                         <img 
                             key={index}
-                            src={icon.src} 
+                            src={icon.src}
+                            alt={icon.alt} 
                         />
                         ))}
                     </div>

@@ -1,6 +1,7 @@
 import '../index.css'
 import { SkillsSection } from '../components/skillsSection.jsx'
 import { Navbar } from '../components/navbar.jsx'
+import { CallToAction } from '../components/callToAction.jsx'
 
 
 function Home() {
@@ -11,10 +12,17 @@ function Home() {
         { name: "Contact", path: "/contact" }
     ];
     return (
-        <div className='skills-container'>
-            <Navbar links={navLinks} />
-            <h1>My skills</h1>
-            <SkillsSection />
+        <div className="home-container">
+            <div className='navbar-container'>
+                <Navbar links={navLinks} />
+            </div>
+            <div className='call-to-action-container'>
+                <CallToAction />
+            </div>
+            <div>
+                <h1 className='title-section-skill'>My skills</h1>
+                <SkillsSection />
+            </div>
         </div>
     )
 }

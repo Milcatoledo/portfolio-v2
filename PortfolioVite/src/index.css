@@ -15,9 +15,13 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
+  min-height: 100vh;
+  width: 100%
+}
+
+.home-container {
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -26,6 +30,7 @@ h1 {
   line-height: 1.1;
   margin-bottom: 35px;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -40,7 +45,7 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   h1{
     text-align: center;
   }
