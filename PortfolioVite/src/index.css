@@ -13,6 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#skills {
+  scroll-margin-top: 70px;
+}
+
 body {
   margin: 0;
   min-width: 320px;

@@ -19,6 +19,7 @@ function Home() {
             <div className='call-to-action-container'>
                 <CallToAction />
             </div>
+            <span id="skills"></span>
             <div>
                 <h1 className='title-section-skill'>My skills</h1>
                 <SkillsSection />
