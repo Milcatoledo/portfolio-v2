@@ -1,5 +1,5 @@
 import { Navbar } from '../components/navbar.jsx'
-function Contact() {
+function Courses() {
     const navLinks = [
         { name: "Home", path: "/" },
         { name: "Projects", path: "/projects" },
@@ -9,9 +9,9 @@ function Contact() {
     return (
         <div>
             <Navbar links={navLinks} />
-            <h1>Contact Page</h1>
+            <h1>Courses Page</h1>
         </div>
     )
 }
 
-export default Contact
+export default Courses

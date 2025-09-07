@@ -3,6 +3,8 @@ import { Navbar } from '../components/navbar.jsx'
 function Projects() {
     const navLinks = [
         { name: "Home", path: "/" },
+        { name: "Courses", path: "/courses" },
+        { name: "Events", path: "/events" },
         { name: "Contact", path: "/contact" }
     ];
 
