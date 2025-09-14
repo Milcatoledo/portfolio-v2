@@ -4,14 +4,12 @@
     justify-content: center;
 }
 
-
-
 .skills-section-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 5rem;
-    margin:20px auto;
+    margin:40px auto;
     padding: 0 20px;
 }
 

@@ -12,8 +12,6 @@ export function CallToAction() {
                 <h2>Desarrolladora de Software | Frontend & Backend</h2>
                 <p>
                     Transformo ideas en soluciones digitales atractivas y funcionales.
-                    Combino creatividad, experiencia técnica y visión estratégica para crear proyectos
-                    que conecten con las personas.
                 </p>
                 <div className="redes">
                     {socialLinksData.map((socialLink) => (
