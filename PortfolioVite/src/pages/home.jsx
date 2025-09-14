@@ -1,7 +1,9 @@
 import '../index.css'
+import '../styles/skills.css'
 import { SkillsSection } from '../components/skillsSection.jsx'
 import { Navbar } from '../components/navbar.jsx'
 import { CallToAction } from '../components/callToAction.jsx'
+import { AsideSection } from '../components/asideSection.jsx'
 
 
 function Home() {
@@ -21,8 +23,15 @@ function Home() {
             </div>
             <span id="skills"></span>
             <div>
-                <h1 className='title-section-skill'>My skills</h1>
-                <SkillsSection />
+                <div className="skills-section-container">
+                    <div className="skills-wrapper">
+                        <h2 className='title-section-skill'>My skills</h2>
+                        <SkillsSection />
+                    </div>
+                    <div className="aside-wrapper">
+                        <AsideSection />
+                    </div>
+                </div>
             </div>
         </div>
     )
