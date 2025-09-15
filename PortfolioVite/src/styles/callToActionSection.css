@@ -10,10 +10,10 @@
 }
 
 .hero img.foto-perfil {
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;
-    border: 4px solid #04148e;
+    width: 12%;
+    height: 12%;
+    border-radius: 100%;
+    border: 5px solid #f64e87;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 }
 
@@ -23,7 +23,7 @@
 }
 
 .hero h1 span {
-    color: #ffd700;
+    color: #f64e87;
 }
 
 .hero h2 {
@@ -54,12 +54,13 @@
 }
 
 .btn-primario {
-    background: #ffd700;
-    color: #000;
+    background: #f64e87;
+    color: #0f172a;
 }
 
 .btn-primario:hover {
-    background: #ffb800;
+    color: #dedede;
+    background: #b84f72;
 }
 
 .btn-secundario {

@@ -1,5 +1,5 @@
 import '../styles/callToActionSection.css'
-import milcaPhoto from '../images/milca.jpeg';
+import milcaPhoto from '../images/milca.png';
 import { SocialLink } from './socialLink.jsx';
 import { socialLinksData } from '../data/socialLinksData.jsx';
 

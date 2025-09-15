@@ -40,6 +40,9 @@ h1 {
   margin-bottom: 35px;
 }
 
+h2{
+  text-align: center;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

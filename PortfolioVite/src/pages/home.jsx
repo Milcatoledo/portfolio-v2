@@ -29,6 +29,7 @@ function Home() {
                         <SkillsSection />
                     </div>
                     <div className="aside-wrapper">
+                        <h2>About Me</h2>
                         <AsideSection />
                     </div>
                 </div>

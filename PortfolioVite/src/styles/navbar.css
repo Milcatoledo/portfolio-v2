@@ -30,7 +30,7 @@
 }
 
 .navbar-logo a:hover {
-  color: #007bff;
+  color: #f64e87;
   transform: translateY(-1px);
 }
 
@@ -52,8 +52,8 @@
 }
 
 .navbar-links a:hover {
-  color: #007bff;
-  background: rgba(0, 123, 255, 0.1);
+  color: #f64e87;
+  background: rgba(165, 40, 82, 0.514);
   transform: translateY(-2px);
 }
 
@@ -64,7 +64,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background: #007bff;
+  background: #f64e87;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
