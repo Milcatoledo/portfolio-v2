@@ -4,6 +4,7 @@ function Events() {
         { name: "Home", path: "/" },
         { name: "Projects", path: "/projects" },
         { name: "Courses", path: "/courses" },
+        { name: "Events", path: "/events" },
         { name: "Contact", path: "/contact" }
     ];
     return (

@@ -25,11 +25,11 @@ function Home() {
             <div>
                 <div className="skills-section-container">
                     <div className="skills-wrapper">
-                        <h2 className='title-section-skill'>My skills</h2>
+                        <h2 className='title-section-skill'>Mis habilidades</h2>
                         <SkillsSection />
                     </div>
                     <div className="aside-wrapper">
-                        <h2>About Me</h2>
+                        <h2>Sobre mí</h2>
                         <AsideSection />
                     </div>
                 </div>

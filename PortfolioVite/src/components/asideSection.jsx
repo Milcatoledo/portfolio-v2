@@ -46,7 +46,7 @@ export function SkillBar({ skill, percentage }) {
     );
 }
 
-export function SkillsSection({ skills, title = "My skill percentage" }) {
+export function SkillsSection({ skills, title = "Domino de tecnologías" }) {
     return (
         <div className="skills-section">
             {title && <h3 className="skills-title">{title}</h3>}

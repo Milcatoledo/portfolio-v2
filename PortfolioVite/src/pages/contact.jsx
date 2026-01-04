@@ -4,12 +4,19 @@ function Contact() {
         { name: "Home", path: "/" },
         { name: "Projects", path: "/projects" },
         { name: "Courses", path: "/courses" },
-        { name: "Events", path: "/events" }
+        { name: "Events", path: "/events" },
+        { name: "Contact", path: "/contact" }
     ];
     return (
         <div>
-            <Navbar links={navLinks} />
-            <h1>Contact Page</h1>
+            <div className='navbar-container'>
+                <Navbar links={navLinks} />
+            </div>
+            <div>
+                <h1>Contact me</h1>
+                <div></div>
+            </div>
+            
         </div>
     )
 }
