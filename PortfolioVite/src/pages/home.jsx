@@ -10,8 +10,7 @@ function Home() {
     const navLinks = [
         { name: "Projects", path: "/projects" },
         { name: "Courses", path: "/courses" },
-        { name: "Events", path: "/events" },
-        { name: "Contact", path: "/contact" }
+        { name: "Events", path: "/events" }
     ];
     return (
         <div className="home-container">
