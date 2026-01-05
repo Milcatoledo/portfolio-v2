@@ -1,6 +1,8 @@
 
+
 import github from '../icons/github.png';
 import linkedin from '../icons/linkedin.png';
+import email from '../icons/email.png';
 
 export const socialLinksData = [
     {
@@ -14,5 +16,11 @@ export const socialLinksData = [
         url: "https://www.linkedin.com/in/milca-toledo-763190380/",
         icon: linkedin,
         altText: "LinkedIn"
+    },
+    {
+        id: 'email',
+        url: "mailto:mtoledom09@gmail.com",
+        icon: email,
+        altText: "Email"
     }
 ];
